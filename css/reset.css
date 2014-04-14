@@ -37,12 +37,12 @@ table {
 
 /* Yahoo! UI Library: Reset CSS - http://developer.yahoo.com/yui/reset/ */
 
-address, caption, cite, code, dfn, em, strong, th, var { 
-  font-style: normal; 
-  font-weight: normal; 
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
 }
-caption, th { 
-  text-align: left; 
+caption, th {
+  text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -52,7 +52,7 @@ input, textarea {
   padding: 0;
 }
 
-/* http://fly.weig.ht */
+/* additions */
 
 img {
   border-style: none;
