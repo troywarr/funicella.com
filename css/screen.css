@@ -65,6 +65,7 @@ h1 {
   width: 740px;
   background: url(../img/bg_main_page.png) repeat-y;
   padding-bottom: 30px;
+  min-height: 400px;
 }
 #sidebar {
   width: 240px;
