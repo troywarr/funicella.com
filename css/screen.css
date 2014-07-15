@@ -6,58 +6,71 @@ body {
   line-height: 1.7;
   background: #97b371 url(../img/bg_body.jpg) repeat-x;
 }
+
 #wrapper {
   width: 760px;
   text-align: left;
   margin: 15px auto 50px auto;
   position: relative;
 }
+
 #header {
   display: block;
 }
+
 #interior {
   background: #97b371 url(../img/bg_body_interior.jpg) repeat-x;
 }
+
 #interior #main_page {
   margin-top: 13px;
 }
+
 #box {
   background-image: url(../img/boxes.png);
   width: 760px;
   height: 233px;
 }
+
 #box p {
   margin: 0 13px 2px 15px;
 }
+
 #box h2 {
   margin: 6px 0 0 15px;
   font-weight: bold;
   font-size: 17px;
   color: #3e5364;
 }
+
 h1 {
   margin: 10px 0 0.25em 15px;
   font-weight: bold;
   font-size: 21px;
 }
+
 #content h2 {
   font-weight: bold;
   font-size: 17px;
   margin: 0 0 0.5em 15px;
   color: #3e5364;
 }
+
 #box a {
   margin-left: 15px;
 }
+
 #masthead {
   display: block;
 }
+
 .home_box {
   width: 240px;
   height: 180px;
   margin: 20px 0 0 10px;
   float: left;
 }
+
 #main_page {
   clear: both;
   border: 10px solid #798f5a;
@@ -67,94 +80,116 @@ h1 {
   padding-bottom: 30px;
   min-height: 400px;
 }
+
 #sidebar {
   width: 240px;
   float: right;
   padding-top: 43px;
 }
+
 #sidebar p {
   margin: 0 15px 1em 15px;
 }
+
 #sidebar ul {
   margin: 0 15px;
 }
+
 #sidebar li {
   margin-bottom: 0.5em;
 }
+
 #content {
   float: left;
   width: 485px;
 }
+
 a:link {
   text-decoration: underline;
   color: #006ad5;
 }
+
 a:visited {
   text-decoration: underline;
   color: #39f;
 }
+
 a:hover,
 a:active {
   text-decoration: none;
   color: #006ad5;
 }
+
 #content ul {
   margin: 0.5em 0 1em 40px;
   list-style: outside disc;
 }
+
 #content p {
   margin: 0 0 1em 15px;
 }
+
 #toni_funicella {
   float: right;
   margin: 0 5px 10px 15px;
   padding: 2px;
   border: 3px solid #ccc;
 }
+
 #lake_creek {
   float: left;
   margin: 0 15px 10px 20px;
   padding: 2px;
   border: 3px solid #ccc;
 }
+
 .page_img {
   margin: 0 0 0.5em 20px;
   padding: 2px;
   border: 3px solid #ccc;
 }
+
 th {
   padding-right: 20px;
   font-weight: bold;
   width: 80px;
 }
+
 td {
   padding-right: 20px;
 }
+
 table {
   margin: 0 15px 1em 15px;
 }
+
 strong {
   font-weight: bold;
 }
+
 #content .p_above_ul {
   margin-bottom: 0.5em;
 }
+
 .note {
   background-color: #ffc;
   padding: 10px;
   border: 1px solid #ccc;
 }
+
 .form {
   background: url(../img/pdf_icon.jpg) no-repeat;
   margin: 15px;
   padding-left: 70px;
   position: relative;
 }
+
 .form h2 {
   line-height: 1.4;
   padding-bottom: 2px;
   padding-top: 4px;
 }
+
 .form_link {
   position: absolute;
   left: 0;
@@ -163,51 +198,64 @@ strong {
   height: 90px;
   display: block;
 }
+
 em {
   font-style: italic;
   background-color: #ff0;
   padding: 0 5px;
 }
+
 dl {
   margin: 0 15px;
 }
+
 dt {
   margin-bottom: 0.5em;
 }
+
 dd {
   margin-bottom: 1em;
 }
+
 #footer {
   text-align: center;
   margin-top: 20px;
   color: #fff;
 }
+
 #footer a:link,
 #footer a:visited {
   color: #333;
   text-decoration: underline;
 }
+
 #footer a:hover,
 #footer a:active {
   color: #333;
   text-decoration: none;
 }
+
 #footer span {
   font-weight: bold;
 }
+
 #footer p {
   margin-bottom: 0.5em;
 }
+
 #copyright {
   font-style: italic;
 }
+
 #AAD {
   float: left;
   margin: 5px 15px 0 20px;
 }
+
 #footer_navigation {
   font-size: 14px;
 }
+
 #caption {
   text-align: center;
   font-size: 12px;
@@ -219,6 +267,7 @@ dd {
 #navigation a {
   text-indent: -9999px;
 }
+
 #navigation {
   width: 760px;
   height: 39px;
@@ -226,62 +275,69 @@ dd {
   position: relative;
   margin-top: 11px;
 }
+
 #navigation li {
   list-style: none;
   position: absolute;
   top: 0;
 }
+
 #navigation li,
 #navigation a {
   height: 39px;
   display: block;
 }
+
 #nav1 {
   left: 0;
-  width: 94px;
+  width: 116px;
 }
+
 #nav2 {
-  left: 94px;
+  left: 116px;
+  width: 137px;
+}
+
+#nav3 {
+  left: 253px;
+  width: 132px;
+}
+
+#nav4 {
+  left: 385px;
+  width: 114px;
+}
+
+#nav5 {
+  left: 499px;
   width: 113px;
 }
-#nav3 {
-  left: 207px;
-  width: 108px;
-}
-#nav4 {
-  left: 315px;
-  width: 88px;
-}
-#nav5 {
-  left: 403px;
-  width: 142px;
-}
+
 #nav6 {
-  left: 545px;
-  width: 89px;
+  left: 612px;
+  width: 148px;
 }
-#nav7 {
-  left: 634px;
-  width: 126px;
-}
+
 #nav1 a:hover {
   background: transparent url(../img/navigation.png) 0 -39px no-repeat;
 }
+
 #nav2 a:hover {
-  background: transparent url(../img/navigation.png) -94px -39px no-repeat;
+  background: transparent url(../img/navigation.png) -116px -39px no-repeat;
 }
+
 #nav3 a:hover {
-  background: transparent url(../img/navigation.png) -207px -39px no-repeat;
+  background: transparent url(../img/navigation.png) -253px -39px no-repeat;
 }
+
 #nav4 a:hover {
-  background: transparent url(../img/navigation.png) -315px -39px no-repeat;
+  background: transparent url(../img/navigation.png) -385px -39px no-repeat;
 }
+
 #nav5 a:hover {
-  background: transparent url(../img/navigation.png) -403px -39px no-repeat;
+  background: transparent url(../img/navigation.png) -499px -39px no-repeat;
 }
+
 #nav6 a:hover {
-  background: transparent url(../img/navigation.png) -545px -39px no-repeat;
-}
-#nav7 a:hover {
-  background: transparent url(../img/navigation.png) -634px -39px no-repeat;
+  background: transparent url(../img/navigation.png) -612px -39px no-repeat;
 }
